@@ -10,7 +10,7 @@ Responsive Design: The application features a clean and responsive design implem
 Technology Stack
 Backend: Spring Boot, Java, JDBC
 Frontend: HTML, CSS
-Database: Relational Database (e.g., MySQL, 
+Database: Relational Database e.g. MySQL.
 
 ![Screenshot 2024-11-05 192527](https://github.com/user-attachments/assets/bc58ca60-0705-4507-af1a-89728d122fd2)
 ![Screenshot 2024-11-05 192544](https://github.com/user-attachments/assets/fd7dbec3-39f8-48a0-8e9b-c628e3cffd7c)
