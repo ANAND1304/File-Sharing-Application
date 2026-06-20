@@ -1,6 +1,36 @@
 # File Sharing Manager
 This project is a File Sharing Application developed using Spring Boot, Java, JDBC, HTML, and CSS. It provides a user-friendly platform that allows users to upload,login page, user authentication, share, and manage files securely over the web. The application combines backend functionality powered by Spring Boot and a responsive frontend built with HTML and CSS.
 
+# File Sharing Application
+
+A secure file sharing platform built with Spring Boot and JWT Authentication.
+
+## Features
+- User registration and login with JWT
+- Upload, download and share files securely
+- Role-based access control
+- File metadata stored in MySQL
+
+## Tech Stack
+- Java 17, Spring Boot
+- Spring Security + JWT
+- MySQL + JPA/Hibernate
+- HTML/CSS (Frontend)
+
+## Setup Instructions
+1. Clone the repo
+2. Configure MySQL in application.properties
+3. Run: mvn spring-boot:run
+
+## API Endpoints
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /auth/register | Register user |
+| POST | /auth/login | Get JWT token |
+| POST | /files/upload | Upload file |
+| GET | /files/download/{id} | Download file 
+
+
 Features
 User Authentication: Implement a secure login functionality where users can register and log in to their accounts using credentials. Passwords are hashed for security.
 File Upload: Users can easily upload files from their local machines to the server, with the ability to choose file types and sizes, ensuring a smooth user experience.
